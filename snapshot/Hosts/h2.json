@@ -1,0 +1,11 @@
+{
+        "hostname" : "host2",
+        "hostInterfaces" : {
+                "giga0/0" : {
+                        "name": "giga0/0",
+      "prefix" : "172.16.1.20/24",
+      "gateway": "172.16.1.1"
+                }
+        }
+}
+

@@ -1,0 +1,19 @@
+FROM zephyr:7b-beta
+
+# set the temperature to 0.0 [higher is more creative, lower is more coherent]
+PARAMETER temperature 0
+
+TEMPLATE """{{- if .System }}
+<|system|>
+{{ .System }}
+</s>
+{{- end }}
+<|user|>
+{{ .Prompt }}
+</s>
+<|assistant|>
+"""
+PARAMETER stop "<|system|>"
+PARAMETER stop "<|user|>"
+PARAMETER stop "<|assistant|>"
+PARAMETER stop "</s>"

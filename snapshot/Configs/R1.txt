@@ -1,0 +1,18 @@
+hostname R1
+interface GigabitEthernet0/0
+  ip address 192.168.1.1 255.255.255.0
+  ip ospf 100 area 1
+!
+interface GigabitEthernet0/1
+  ip address 10.0.0.1 255.255.255.0
+  ip ospf 100 area 0
+!
+interface GigabitEthernet0/2
+  ip address 40.0.0.1 255.255.255.0
+  ip ospf 100 area 0
+!
+router ospf 100
+  network 192.168.1.0 0.0.0.255 area 1
+  network 10.0.0.0 0.0.0.255 area 0
+  network 40.0.0.0 0.0.0.255 area 0
+

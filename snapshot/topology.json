@@ -1,0 +1,125 @@
+{
+  "edges": [
+    {
+      "node1": {
+        "hostname": "h1",
+        "interfaceName": "giga0/0"
+      },
+      "node2": {
+        "hostname": "R1",
+        "interfaceName": "giga0/0"
+      }
+    },
+    {
+      "node1": {
+        "hostname": "h2",
+        "interfaceName": "giga0/0"
+      },
+      "node2": {
+        "hostname": "R2",
+        "interfaceName": "giga0/0"
+      }
+    },
+    {
+      "node1": {
+        "hostname": "R1",
+        "interfaceName": "giga0/1"
+      },
+      "node2": {
+        "hostname": "R2",
+        "interfaceName": "giga0/1"
+      }
+    },
+    {
+      "node1": {
+        "hostname": "R1",
+        "interfaceName": "giga0/2"
+      },
+      "node2": {
+        "hostname": "R4",
+        "interfaceName": "giga0/0"
+      }
+    },
+    {
+      "node1": {
+        "hostname": "R2",
+        "interfaceName": "giga0/0"
+      },
+      "node2": {
+        "hostname": "R4",
+        "interfaceName": "giga0/1"
+      }
+    },
+    {
+      "node1": {
+        "hostname": "R2",
+        "interfaceName": "giga0/1"
+      },
+      "node2": {
+        "hostname": "R1",
+        "interfaceName": "giga0/2"
+      }
+    },
+    {
+      "node1": {
+        "hostname": "R2",
+        "interfaceName": "giga0/2"
+      },
+      "node2": {
+        "hostname": "R3",
+        "interfaceName": "giga0/0"
+      }
+    },
+    {
+      "node1": {
+        "hostname": "R3",
+        "interfaceName": "giga0/1"
+      },
+      "node2": {
+        "hostname": "R4",
+        "interfaceName": "giga0/2"
+      }
+    },
+    {
+      "node1": {
+        "hostname": "R3",
+        "interfaceName": "giga0/2"
+      },
+      "node2": {
+        "hostname": "R2",
+        "interfaceName": "giga0/0"
+      }
+    },
+    {
+      "node1": {
+        "hostname": "R4",
+        "interfaceName": "giga0/0"
+      },
+      "node2": {
+        "hostname": "R2",
+        "interfaceName": "giga0/1"
+      }
+    },
+    {
+      "node1": {
+        "hostname": "R4",
+        "interfaceName": "giga0/1"
+      },
+      "node2": {
+        "hostname": "R3",
+        "interfaceName": "giga0/2"
+      }
+    },
+    {
+      "node1": {
+        "hostname": "R4",
+        "interfaceName": "giga0/2"
+      },
+      "node2": {
+        "hostname": "R1",
+        "interfaceName": "giga0/0"
+      }
+    }
+  ]
+}
+

@@ -1,0 +1,18 @@
+hostname R3
+interface GigabitEthernet0/0
+  ip address 172.16.1.1 255.255.255.0
+  ip ospf 100 area 2
+!
+interface GigabitEthernet0/1
+  ip address 30.0.0.1 255.255.255.0
+  ip ospf 100 area 0
+!
+interface GigabitEthernet0/2
+  ip address 20.0.0.2 255.255.255.0
+  ip ospf 100 area 0
+!
+router ospf 100
+  network 172.16.1.0 0.0.0.255 area 2
+  network 30.0.0.0 0.0.0.255 area 0
+  network 20.0.0.0 0.0.0.255 area 0
+

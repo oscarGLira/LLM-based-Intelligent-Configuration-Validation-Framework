@@ -1,0 +1,18 @@
+hostname R4
+interface GigabitEthernet0/0
+  ip address 50.0.0.1 255.255.255.0
+  ip ospf 100 area 0
+!
+interface GigabitEthernet0/1
+  ip address 30.0.0.2 255.255.255.0
+  ip ospf 100 area 0
+!
+interface GigabitEthernet0/2
+  ip address 40.0.0.2 255.255.255.0
+  ip ospf 100 area 0
+!
+router ospf 100
+  network 50.0.0.0 0.0.0.255 area 0
+  network 30.0.0.0 0.0.0.255 area 0
+  network 40.0.0.0 0.0.0.255 area 0
+

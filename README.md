@@ -34,6 +34,6 @@ The **Verifier.py** script is run in the batfish docker container and uses pybat
 
 This directory contains the files required in batfish to load the snapshot (topology). The **snapshot/** directory contains a **topology.json** file describing how each device is connected with the others, the **Verifier.py** script, a subdirectory **Configs/** with the routers configuration files and a subdirectory **Hosts/** with the hosts files.
 
-### Prompts 🔥
+### Prompts
 
 The **translator.txt** and **configurator.txt** contains each role for the LLM.

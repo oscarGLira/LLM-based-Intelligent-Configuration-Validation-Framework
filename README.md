@@ -37,3 +37,7 @@ This directory contains the files required in batfish to load the snapshot (topo
 ### Prompts
 
 The **translator.txt** and **configurator.txt** contains each role for the LLM.
+
+## Results
+
+The **Graphs** directory contain the **llmdata.csv** file which contain the results of the LLM model for each requirement, some manual tagging was used to facilitate the graphic design. Script **TypesPercentages.py** is used to graph <Req_Type.png> and **complexityVStimes.py** is used to graph <Total_Times.png>.

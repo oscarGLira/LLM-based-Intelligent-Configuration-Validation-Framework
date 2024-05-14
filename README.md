@@ -43,7 +43,7 @@ The **translator.txt** and **configurator.txt** contains each role for the LLM.
 
 ## Results
 
-The **Graphs** directory contain the **llmdata.csv** file which contain the results of the LLM model for each requirement, some manual tagging was used to facilitate the graphic design. Script **TypesPercentages.py** is used to graph <Req_Type.png> and **complexityVStimes.py** is used to graph <Total_Times.png>.
+The **Graphs** directory contain the **llmdata.csv** file which contain the results of the LLM model for each requirement, some manual tagging was used to facilitate the graphic design. Script **TypesPercentages.py** is used to graph <Req_Type.png>, **TimevsComplexity.py** is used to grpah <Total_time.png>, and **complexityVStimes.py** is used to graph <Total_Times.png>.
 
 <img src="Graphs/Req_type.png" alt="Requirements Types Graph" width="50%"><img src="Graphs/Total_time.png" alt="Total Time by Complexity" width="50%">
 

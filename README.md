@@ -1,6 +1,9 @@
 # LLM-Network Device Configurator
 Framework for LLM-based automated network management configuration agent.
 
+![Prototype Environment](Proto_Env.png)
+
+
 ## Project Pre-requisites 
 ### LLM 
 * [Ollama](https://ollama.com/download)

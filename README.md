@@ -26,7 +26,7 @@ The file **zephyr_configurator** have the setup to download the zephyr-7b-beta m
 ### Orchestrator Script
 
 The **Request.py** script uses ollama library to access the LLM model and request library to access the Verificator Module.
-`batfish_ip need to be specified (batfish docker ip address)`
+
 
 ### Batfish Application 
 
@@ -35,7 +35,6 @@ This directory contains the files required in batfish to load the snapshot (topo
 #### Verificator Script 
 
 The **Verifier.py** script is run in the batfish docker container and uses pybatfish library to initialize and manage the snapshot (topology).
-`batfish_ip need to be specified (batfish docker ip address)`
 
 ### Prompts
 
